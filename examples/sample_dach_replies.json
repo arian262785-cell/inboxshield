@@ -1,0 +1,22 @@
+[
+  {
+    "id": "practice_autoresponder",
+    "text": "Liebe Patientinnen und Patienten, planbare Termine koennen Sie jederzeit online buchen. Termine mindestens 24 Stunden vorher absagen, da sonst eine Ausfallgebuehr anfaellt. Ihr Praxisteam",
+    "expected_category": "autoresponder"
+  },
+  {
+    "id": "gdpr_objection",
+    "text": "Bitte nehmen Sie uns sofort aus Ihrem Verteiler. Widerspruch nach Art. 21 DSGVO gegen weitere Werbung.",
+    "expected_category": "unsubscribe"
+  },
+  {
+    "id": "polite_rejection_with_offer_word",
+    "text": "Vielen Dank fuer Ihr Angebot, aber wir sind mit unserer aktuellen Website zufrieden und moechten nicht umsteigen.",
+    "expected_category": "reject"
+  },
+  {
+    "id": "qualified_call_request",
+    "text": "Klingt interessant fuer unsere Kanzlei. Koennen wir diese Woche kurz telefonieren? Schlagen Sie gerne einen Termin vor.",
+    "expected_category": "interest"
+  }
+]
