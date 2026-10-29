@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inboxshield"
+version = "0.2.0"
+description = "Zero-trust RFC 5322 email sanitizer, RFC 3463 DSN bounce parser with SQLite suppression ledger, and deterministic DACH B2B reply classifier."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Arian Abdi"}
+]
+dependencies = []
+
+[project.scripts]
+inboxshield = "inboxshield.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
